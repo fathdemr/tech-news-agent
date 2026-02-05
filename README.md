@@ -123,4 +123,6 @@ Run:
 
 or
 
+```bash
 ./news-agent -testconnection
+```
