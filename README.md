@@ -43,12 +43,16 @@ This project demonstrates a production-style backend agent that fetches news dat
 
 ### Clone Repository
 
+```bash
 git clone https://github.com/yourusername/tech-news-agent.git
 cd tech-news-agent
+```
 
 Install dependencies:
 
+```bash
 go mod tidy
+```
 
 ---
 
@@ -82,7 +86,9 @@ You can run the agent in **three different modes**.
 If you don’t want cron scheduling
 and just want to run immediately:
 
+```bash
 go run cmd/main.go -test
+```
 
 ---
 
@@ -90,7 +96,10 @@ go run cmd/main.go -test
 
 To test Telegram bot connection:
 
+```bash
 go run cmd/main.go -test-connection
+```
+
 
 This sends a simple test message:
 
@@ -100,11 +109,17 @@ Tech News Agent is connected
 
 ## 🏗 Build Binary
 
+```bash
 go build -o news-agent cmd/main.go
+```
+
 
 Run:
 
+```bash
 ./news-agent -test
+```
+
 
 or
 
