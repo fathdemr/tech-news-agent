@@ -6,15 +6,15 @@ This project demonstrates a production-style backend agent that fetches news dat
 
 ---
 
-# 🚀 Features
-•	📡 Fetches latest tech news from NewsAPI
-•	🤖 Summarizes articles using Google Gemini AI
-•	🧠 Extracts key topics & trending stories
-•	📰 Generates structured weekly tech summary
-•	📤 Sends formatted reports to Telegram
-•	⏱ Runs automatically via cron schedule
-•	🛡 Error handling & fallback support
-•	🧱 Clean, modular Go architecture
+## 🚀 Features
+-	📡 Fetches latest tech news from NewsAPI
+-	🤖 Summarizes articles using Google Gemini AI
+-	🧠 Extracts key topics & trending stories
+-	📰 Generates structured weekly tech summary
+-	📤 Sends formatted reports to Telegram
+-	⏱ Runs automatically via cron schedule
+-	🛡 Error handling & fallback support
+-	🧱 Clean, modular Go architecture
 
 ---
 
@@ -28,7 +28,7 @@ This project demonstrates a production-style backend agent that fetches news dat
 
 ---
 
-# 🧠 How It Works
+## 🧠 How It Works
 1.	Agent runs on scheduled cron job
 2.	Fetches news articles by category (AI, tech, etc.)
 3.	Filters & prepares article data
@@ -41,7 +41,7 @@ This project demonstrates a production-style backend agent that fetches news dat
 
 ---
 
-# Clone Repository
+### Clone Repository
 
 git clone https://github.com/yourusername/tech-news-agent.git
 cd tech-news-agent
@@ -52,7 +52,7 @@ go mod tidy
 
 ---
 
-# ⚙️ Environment Variables
+## ⚙️ Environment Variables
 
 Create a .env file:
 ```env
@@ -71,13 +71,13 @@ MAX_NEWS_ARTICLES=<your_max_article>
 
 ---
 
-# Running the Application
+## Running the Application
 
 You can run the agent in **three different modes**.
 
 ---
 
-# 🧪 Test Mode (run once instantly)
+## 🧪 Test Mode (run once instantly)
 
 If you don’t want cron scheduling
 and just want to run immediately:
@@ -86,7 +86,7 @@ go run cmd/main.go -test
 
 ---
 
-# 🤖 Test Telegram Connection Only
+## 🤖 Test Telegram Connection Only
 
 To test Telegram bot connection:
 
@@ -98,7 +98,7 @@ Tech News Agent is connected
 
 ---
 
-# 🏗 Build Binary
+## 🏗 Build Binary
 
 go build -o news-agent cmd/main.go
 
